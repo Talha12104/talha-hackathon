@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+import Image from "next/image";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -74,7 +75,7 @@ const ProductCarouselWithWishlist: React.FC = () => {
           {sampleProducts.map((product) => (
             <SwiperSlide key={product.id}>
               <div className="p-4 border rounded-lg shadow-md text-center">
-                <img
+                <Image
                   src={product.image}
                   alt={product.title}
                   className="w-full h-48 object-cover mb-4 rounded-md"

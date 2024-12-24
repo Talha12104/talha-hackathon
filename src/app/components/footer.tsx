@@ -143,6 +143,10 @@ function Footer() {
       target='blank' href={"https://www.linkedin.com/in/syeda-farheen-zehra-648459268/"} className="ml-3 text-gray-900">
         <FaLinkedin className='text-3xl ' />
       </Link>
+      <Link
+      target='blank' href={"https://github.com/Talha12104"} className="ml-3 text-gray-900">
+        <FaGithub className='text-3xl ' />
+      </Link>
     </span>
     </div>
   </div>

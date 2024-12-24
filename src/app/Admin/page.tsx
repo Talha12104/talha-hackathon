@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { FaEnvelope, FaInstagram, FaGithub, FaLinkedin, FaStar, FaHandshake } from 'react-icons/fa'; // Added icons for sections
+import { FaEnvelope, FaInstagram, FaGithub, FaLinkedin, FaHandshake } from 'react-icons/fa'; // Added icons for sections
 
 
 function CreatorPage() {

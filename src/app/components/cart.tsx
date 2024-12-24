@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Cart = () => {
   return (
@@ -6,7 +7,7 @@ const Cart = () => {
       <div className="container mx-auto flex items-center gap-10">
         {/* Left Section - Image */}
         <div className="flex-1">
-          <img
+          <Image
             src="/sofa.png"
             alt="Blue Velvet Chair"
             className="w-full max-w-md mx-auto"
