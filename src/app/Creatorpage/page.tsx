@@ -13,8 +13,8 @@ function CreatorPage() {
           <div className="flex flex-col lg:flex-row items-center gap-6">
             <div className="flex-shrink-0">
               <Image
-                src="/images/profile.png" // Path to your image in the public folder
-                alt="Muqaddas Fatima"
+                src="/talha.jpeg" // Path to your image in the public folder
+                alt="Muhammad Talha"
                 width={150}
                 height={150}
                 className="rounded-full shadow-lg-[#1D3178]"
