@@ -10,7 +10,9 @@ function Navbar() {
     setOpen(!open);
   };
  
+
   const [isPagesDropdownOpen, setIsPagesDropdownOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
 
   return (
@@ -95,8 +97,12 @@ function Navbar() {
               <input
                 className='w-90 p-2  bg-white  border border-gray-200 text-[20px]'
                 type="search"
+                placeholder='Search...'
+                value={searchQuery}
+                 onChange={(e) => setSearchQuery(e.target.value)}
               />
-              <FontAwesomeIcon
+              
+              <FontAwesomeIcon 
                 icon={faSearch}
                 className="text-xl ml- h-[36px] bg-pink-600 px-2 py-2 text-white"
               />
